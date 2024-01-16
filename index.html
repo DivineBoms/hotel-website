@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>hotel website</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cecd2c945d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="super_container">
+<!--================Header Area =================-->
+	<header class="header">
+		<div class="header_content d-flex flex-row align-items-center justify-content-start">
+			<div class="logo"><a href="#">GrandGateway</a></div>
+			<div class="ml-auto d-flex flex-row align-items-center justify-content-start">
+				<nav class="main_nav">
+					<ul class="d-flex flex-row align-items-start justify-content-start">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="room.html">Rooms</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="header_phone d-flex flex-row align-items-center justify-content-center">
+					<i class="fas fa-phone"></i>
+					<span>0183-12345678</span>
+				</div>
+
+				<!-- Hamburger Menu -->
+				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+			</div>
+		</div>
+	</header>
+<!--================Header Area =================-->
+<!--================Menu Area =================-->
+	<div class="menu trans_400 d-flex flex-column align-items-end justify-content-start">
+		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+		<div class="menu_content">
+			<nav class="menu_nav text-right">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="#">Rooms</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="menu_extra">
+			<div class="menu_book text-right"><a href="#">Book online</a></div>
+			<div class="menu_phone d-flex flex-row align-items-center justify-content-center">
+				<img src="images/phone-2.png" alt="">
+				<span>0183-12345678</span>
+			</div>
+		</div>
+	</div>
+<!--================Menu Area =================-->
+ <!--================Home Area =================-->
+	<section class="home">
+		<div class="home_slider_container">
+			<div class="owl-carousel owl-theme home_slider">
+				<!-- Slide -->
+				<div class="slide">
+					<div class="background_image" style="background-image:url(img/index_1.jpg)"></div>
+				</div>
+				<!-- Slide -->
+				<div class="slide">
+					<div class="background_image" style="background-image:url(img/index_1.jpg)"></div>
+				</div>
+				<!-- Slide -->
+				<div class="slide">
+					<div class="background_image" style="background-image:url(img/index_1.jpg)"></div>
+				</div>
+			</div>
+			<!-- Home Slider Dots -->
+			<div class="home_slider_dots_container">
+				<div class="home_slider_dots">
+					<ul id="home_slider_custom_dots" class="home_slider_custom_dots d-flex flex-row align-items-start justify-content-start">
+						<li class="home_slider_custom_dot active">01.</li>
+						<li class="home_slider_custom_dot">02.</li>
+						<li class="home_slider_custom_dot">03.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content text-center">
+							<div class="home_title">passer un séjour luxueux</div>
+							<div class="booking_form_container">
+								<form action="#" class="booking_form">
+									<div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="booking_input_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+											<div><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" required="required"></div>
+											<div><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" required="required"></div>
+											<div><input type="number" class="booking_input booking_input_b" placeholder="Children" required="required"></div>
+											<div><input type="number" class="booking_input booking_input_b" placeholder="Room" required="required"></div>
+										</div>
+										<div><button class="booking_button trans_200">Book Now</button></div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	 <!--================Home Area =================-->
+
+	        <!--================ Facilities Area  =================-->
+			<section class="facilities_area section">
+			
+				<div class="container">
+					<!-- <div class="section_title text-center">
+						<h2 class="title_w">Royal Facilities</h2>
+						<p>Who are in extremely love with eco friendly system.</p>
+					</div> -->
+					<div class="row justify-content-center">
+						<div class="col-xl-8">
+							<!--font-back-tittle  -->
+							<div class="font-back-tittle mb-45">
+								<div class="archivment-front">
+									<h3>Royal Facilities</h3>
+								</div>
+								<h3 class="archivment-back">Facilities</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row mb_30">
+						<div class="col-lg-4 col-md-6">
+							<div class="facilities_item">
+								<h4 class="sec_h4"><i class="fa fa-cutlery" aria-hidden="true"></i>Restaurant</h4>
+								<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="facilities_item">
+								<h4 class="sec_h4"><i class="fas fa-biking"></i>Sports CLub</h4>
+								<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="facilities_item">
+								<h4 class="sec_h4"><i class="fas fa-swimmer"></i></i>Swimming Pool</h4>
+								<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="facilities_item">
+								<h4 class="sec_h4"><i class="fas fa-car"></i>Rent a Car</h4>
+								<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="facilities_item">
+								<h4 class="sec_h4"><i class="fas fa-wifi"></i>Wifi</h4>
+								<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="facilities_item">
+								<h4 class="sec_h4"><i class="fas fa-beer"></i>Bar</h4>
+								<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--================ Facilities Area  =================-->
+
+			<!--================ About Area  =================-->
+			<section class="make-customer-area section fix">
+				<div class="container-fluid p-0">
+					<div class="row justify-content-center">
+						<div class="col-xl-8">
+							<!--font-back-tittle  -->
+							<div class="font-back-tittle mb-45">
+								<div class="archivment-front">
+									<h3>About Us</h3>
+								</div>
+								<h3 class="archivment-back">About Us</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+					   <div class="col-xl-5 col-lg-6">
+							<div class="customer-img mb-120">
+								<img src="img/customar1.png" class="customar-img1" alt="">
+								<img src="img/customar2.png" class="customar-img2" alt="">
+								<div class="service-experience heartbeat">
+									<h3>25 Years of Service<br>Experience</h3>
+								</div>
+							</div>
+					   </div>
+						<div class=" col-xl-4 col-lg-4">
+							<div class="customer-caption">
+								<span>About our company</span>
+								<h2>Make the customer the hero of your story</h2>
+								<div class="caption-details">
+									<p class="pera-dtails">Lorem ipsum dolor sit amet, consectetur adipisic- ing elit, sed do eiusmod tempor inc. </p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
+									<a href="#" class="btn more-btn1">Learn More <i class="ti-angle-right"></i> </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--================ About Area  =================-->
+
+				<!--================ Room Area  =================-->
+			 <section class="room-area">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-xl-8">
+							<!--font-back-tittle  -->
+							<div class="font-back-tittle mb-45">
+								<div class="archivment-front">
+									<h3>Our Rooms</h3>
+								</div>
+								<h3 class="archivment-back">Our Rooms</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row room-row">
+						<div class="col-xl-4 col-lg-6 col-md-6">
+							<div class="hp-room-item set-bg" style="background-image: url(./img/room-b1.jpg);">
+								<div class="hr-text">
+									<h3>Double Room</h3>
+									<h2>199$<span>/Pernight</span></h2>
+									<table>
+										<tbody>
+											<tr>
+												<td class="r-o">Size:</td>
+												<td>30 ft</td>
+											</tr>
+											<tr>
+												<td class="r-o">Capacity:</td>
+												<td>Max persion 5</td>
+											</tr>
+											<tr>
+												<td class="r-o">Bed:</td>
+												<td>King Beds</td>
+											</tr>
+											<tr>
+												<td class="r-o">Services:</td>
+												<td>Wifi, Television, Bathroom,...</td>
+											</tr>
+										</tbody>
+									</table>
+									<a href="#" class="primary-btn">More Details</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6">
+							<div class="hp-room-item set-bg" style="background-image: url(./img/room-b2.jpg);">
+								<div class="hr-text">
+									<h3>Deluxe Room</h3>
+									<h2>198$<span>/Pernight</span></h2>
+									<table>
+										<tbody>
+											<tr>
+												<td class="r-o">Size:</td>
+												<td>30 ft</td>
+											</tr>
+											<tr>
+												<td class="r-o">Capacity:</td>
+												<td>Max persion 5</td>
+											</tr>
+											<tr>
+												<td class="r-o">Bed:</td>
+												<td>King Beds</td>
+											</tr>
+											<tr>
+												<td class="r-o">Services:</td>
+												<td>Wifi, Television, Bathroom,...</td>
+											</tr>
+										</tbody>
+									</table>
+									<a href="#" class="primary-btn">More Details</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6">
+							<div class="hp-room-item set-bg" style="background-image: url(./img/room-b3.jpg);">
+								<div class="hr-text">
+									<h3>Deluxe Room</h3>
+									<h2>198$<span>/Pernight</span></h2>
+									<table>
+										<tbody>
+											<tr>
+												<td class="r-o">Size:</td>
+												<td>30 ft</td>
+											</tr>
+											<tr>
+												<td class="r-o">Capacity:</td>
+												<td>Max persion 5</td>
+											</tr>
+											<tr>
+												<td class="r-o">Bed:</td>
+												<td>King Beds</td>
+											</tr>
+											<tr>
+												<td class="r-o">Services:</td>
+												<td>Wifi, Television, Bathroom,...</td>
+											</tr>
+										</tbody>
+									</table>
+									<a href="#" class="primary-btn">More Details</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6">
+							<div class="hp-room-item set-bg" style="background-image: url(./img/room-b4.jpg);">
+								<div class="hr-text">
+									<h3>Family Room</h3>
+									<h2>299$<span>/Pernight</span></h2>
+									<table>
+										<tbody>
+											<tr>
+												<td class="r-o">Size:</td>
+												<td>30 ft</td>
+											</tr>
+											<tr>
+												<td class="r-o">Capacity:</td>
+												<td>Max persion 5</td>
+											</tr>
+											<tr>
+												<td class="r-o">Bed:</td>
+												<td>King Beds</td>
+											</tr>
+											<tr>
+												<td class="r-o">Services:</td>
+												<td>Wifi, Television, Bathroom,...</td>
+											</tr>
+										</tbody>
+									</table>
+									<a href="#" class="primary-btn">More Details</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6">
+							<div class="hp-room-item set-bg" style="background-image: url(./img/room-b3.jpg);">
+								<div class="hr-text">
+									<h3>Deluxe Room</h3>
+									<h2>198$<span>/Pernight</span></h2>
+									<table>
+										<tbody>
+											<tr>
+												<td class="r-o">Size:</td>
+												<td>30 ft</td>
+											</tr>
+											<tr>
+												<td class="r-o">Capacity:</td>
+												<td>Max persion 5</td>
+											</tr>
+											<tr>
+												<td class="r-o">Bed:</td>
+												<td>King Beds</td>
+											</tr>
+											<tr>
+												<td class="r-o">Services:</td>
+												<td>Wifi, Television, Bathroom,...</td>
+											</tr>
+										</tbody>
+									</table>
+									<a href="#" class="primary-btn">More Details</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6">
+							<div class="hp-room-item set-bg" style="background-image: url(./img/room-b2.jpg);">
+								<div class="hr-text">
+									<h3>Deluxe Room</h3>
+									<h2>198$<span>/Pernight</span></h2>
+									<table>
+										<tbody>
+											<tr>
+												<td class="r-o">Size:</td>
+												<td>30 ft</td>
+											</tr>
+											<tr>
+												<td class="r-o">Capacity:</td>
+												<td>Max persion 5</td>
+											</tr>
+											<tr>
+												<td class="r-o">Bed:</td>
+												<td>King Beds</td>
+											</tr>
+											<tr>
+												<td class="r-o">Services:</td>
+												<td>Wifi, Television, Bathroom,...</td>
+											</tr>
+										</tbody>
+									</table>
+									<a href="#" class="primary-btn">More Details</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--================ Room Area  =================-->
+
+				<!--================ Testimony Area  =================-->
+			<section class="testimony-section section">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-xl-8">
+							<!--font-back-tittle  -->
+							<div class="font-back-tittle mb-45">
+								<div class="archivment-front">
+									<h3>Our Testimony</h3>
+								</div>
+								<h3 class="archivment-back">Testimony</h3>
+							</div>
+						</div>
+					</div>
+				  <div class="row justify-content-start">
+					<div class="col-md-5">
+					<img src="img/about-img.jpg" class="heartbeat" alt="">
+					</div>
+							  <div class="col-md-1"></div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12">
+							  <div class="carousel-testimony owl-carousel">
+								<div class="item">
+								  <div class="testimony-wrap d-flex">
+									<div class="user-img mb-5" style="background-image: url(./img/person_1.jpg)">
+									  <span class="quote d-flex align-items-center justify-content-center">
+										<i class="fas fa-quote-left"></i>
+									  </span>
+									</div>
+									<div class="text ml-md-4">
+									  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									  <p class="name">Dennis Green</p>
+									  <span class="position">Guest from italy</span>
+									</div>
+								  </div>
+								</div>
+								<div class="item">
+								  <div class="testimony-wrap d-flex">
+									<div class="user-img mb-5" style="background-image: url(./img/person_2.jpg)">
+									  <span class="quote d-flex align-items-center justify-content-center">
+										<i class="fas fa-quote-left"></i>
+									  </span>
+									</div>
+									<div class="text ml-md-4">
+									  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									  <p class="name">Dennis Green</p>
+									  <span class="position">Guest from London</span>
+									</div>
+								  </div>
+								</div>
+								<div class="item">
+								  <div class="testimony-wrap d-flex">
+									<div class="user-img mb-5" style="background-image: url(./img/person_3.jpg)">
+									  <span class="quote d-flex align-items-center justify-content-center">
+										<i class="fas fa-quote-left"></i>
+									  </span>
+									</div>
+									<div class="text ml-md-4">
+									  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									  <p class="name">Dennis Green</p>
+									  <span class="position">Guest from Philippines</span>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+		  	<!--================ Testimony Area  =================-->
+
+	  	<!--================ Footer Area  =================-->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-text">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="ft-about">
+                            <div class="logo">
+                                <a href="#">
+                                    GrandGateway
+                                </a>
+                            </div>
+                            <p>We inspire and reach millions of travelers<br /> across 90 local websites</p>
+                            <div class="fa-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="ft-contact">
+                            <h6>Contact Us</h6>
+                            <ul>
+                                <li>(12) 345 67890</li>
+                                <li><info class="Blaqcoder"></info>@gmail.com</li>
+                                <li>855 sam jaja street  nigeria</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="ft-newslatter">
+                            <h6>New latest</h6>
+                            <p>Get the latest updates and offers.</p>
+                            <form action="#" class="fn-form">
+                                <input type="text" placeholder="Email">
+                                <button type="submit"><i class="fa fa-send"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-option">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Environmental Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="co-text"><p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="_blank">Blaqcoder</a>
+</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <!--================ Footer Area  =================-->
+    </div>
+      <!-- Scripts -->
+  <!-- Bootstrap core JavaScript --> 
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script src="plugins/greensock/TweenMax.min.js"></script>
+  <script src="plugins/greensock/TimelineMax.min.js"></script>
+  <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+  <script src="plugins/lightbox/simpleLightbox.min.js"></script>
+  <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
